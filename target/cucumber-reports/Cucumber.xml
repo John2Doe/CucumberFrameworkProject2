@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="72.900144">
+<testcase classname="feature" name="Validate invalid login attempt" time="9.217068">
+<system-out><![CDATA[Given user is on "http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx".passed
+When user enters username as "abcd".........................................passed
+And user enters password as "abcd1234"......................................passed
+And user clicks on Login button.............................................passed
+Then user should see "Invalid Login or Password." Message...................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature" name="Validate valid login attempt" time="6.053914">
+<system-out><![CDATA[Given user is on "http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx".passed
+When user enters username as "Tester".......................................passed
+And user enters password as "test"..........................................passed
+And user clicks on Login button.............................................passed
+Then user should be routed to "http://secure.smartbearsoftware.com/samples/testcomplete12/weborders/".passed
+]]></system-out>
+</testcase>
+<testcase classname="feature" name="Validate “Web Orders” menu items" time="6.201062">
+<system-out><![CDATA[Given user is on "http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx".passed
+When user enters username as "Tester".......................................passed
+And user enters password as "test"..........................................passed
+And user clicks on Login button.............................................passed
+Then user should be routed to "http://secure.smartbearsoftware.com/samples/testcomplete12/weborders/".passed
+And validate below menu items are displayed.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature" name="Validate “Check All” and “Uncheck All” links" time="7.055858">
+<system-out><![CDATA[Given user is on "http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx".passed
+When user enters username as "Tester".......................................passed
+And user enters password as "test"..........................................passed
+And user clicks on Login button.............................................passed
+Then user should be routed to "http://secure.smartbearsoftware.com/samples/testcomplete12/weborders/".passed
+When user clicks on "Check All" button......................................passed
+Then all rows should be checked.............................................passed
+When user clicks on "Uncheck All" button....................................passed
+Then all rows should be unchecked...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature" name="Validate adding new order" time="7.871139">
+<system-out><![CDATA[Given user is on "http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx".passed
+When user enters username as "Tester".......................................passed
+And user enters password as "test"..........................................passed
+And user clicks on Login button.............................................passed
+Then user should be routed to "http://secure.smartbearsoftware.com/samples/testcomplete12/weborders/".passed
+When user clicks on "Order" menu item.......................................passed
+And user selects "FamilyAlbum" as product...................................passed
+And user enters 2 as quantity...............................................passed
+And user enters all address information.....................................passed
+And user enters all payment information.....................................passed
+And user clicks on "Process" button.........................................passed
+And user clicks on "View all orders" menu item..............................passed
+Then user should see their order displayed in the "List of All Orders" table.passed
+And validate all information entered displayed correct with the order.......passed
+]]></system-out>
+</testcase>
+<testcase classname="feature" name="Validate “Delete Selected” button" time="36.501103">
+<system-out><![CDATA[Given user is on "http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx".passed
+When user enters username as "Tester".......................................passed
+And user enters password as "test"..........................................passed
+And user clicks on Login button.............................................passed
+Then user should be routed to "http://secure.smartbearsoftware.com/samples/testcomplete12/weborders/".passed
+When user clicks on "Check All" button......................................passed
+And user clicks on "Delete Selected" button.................................passed
+Then validate all orders are deleted from the "List of All Orders"..........passed
+And validate user sees "List of orders is empty. In order to add new order use this link." Message.passed
+]]></system-out>
+</testcase>
+</testsuite>
