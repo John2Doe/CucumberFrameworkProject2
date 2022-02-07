@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 297197900,
+              "duration": 273712100,
               "status": "passed"
             },
             "line": 4,
@@ -33,11 +33,20 @@
         "before": [
           {
             "result": {
-              "duration": 1914020100,
+              "duration": 1913208700,
               "status": "passed"
             },
             "match": {
               "location": "smartBearSoftware.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 134200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.testSetUp(Scenario)"
             }
           }
         ],
@@ -48,11 +57,11 @@
         "after": [
           {
             "result": {
-              "duration": 663826400,
+              "duration": 629373200,
               "status": "passed"
             },
             "match": {
-              "location": "Hooks.tearDown()"
+              "location": "Hooks.tearDown(Scenario)"
             }
           }
         ],
@@ -61,7 +70,7 @@
         "steps": [
           {
             "result": {
-              "duration": 72018400,
+              "duration": 48304200,
               "status": "passed"
             },
             "line": 8,
@@ -79,7 +88,7 @@
           },
           {
             "result": {
-              "duration": 74064100,
+              "duration": 93573000,
               "status": "passed"
             },
             "line": 9,
@@ -97,7 +106,7 @@
           },
           {
             "result": {
-              "duration": 3149659400,
+              "duration": 143948600,
               "status": "passed"
             },
             "line": 10,
@@ -109,7 +118,7 @@
           },
           {
             "result": {
-              "duration": 3044386800,
+              "duration": 30802400,
               "status": "passed"
             },
             "line": 11,
@@ -141,7 +150,7 @@
         "steps": [
           {
             "result": {
-              "duration": 318210300,
+              "duration": 261149700,
               "status": "passed"
             },
             "line": 4,
@@ -163,11 +172,20 @@
         "before": [
           {
             "result": {
-              "duration": 1319743800,
+              "duration": 1236673900,
               "status": "passed"
             },
             "match": {
               "location": "smartBearSoftware.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 41400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.testSetUp(Scenario)"
             }
           }
         ],
@@ -178,11 +196,11 @@
         "after": [
           {
             "result": {
-              "duration": 647433200,
+              "duration": 662230800,
               "status": "passed"
             },
             "match": {
-              "location": "Hooks.tearDown()"
+              "location": "Hooks.tearDown(Scenario)"
             }
           }
         ],
@@ -191,7 +209,7 @@
         "steps": [
           {
             "result": {
-              "duration": 59472900,
+              "duration": 47852500,
               "status": "passed"
             },
             "line": 15,
@@ -209,7 +227,7 @@
           },
           {
             "result": {
-              "duration": 113869200,
+              "duration": 62955200,
               "status": "passed"
             },
             "line": 16,
@@ -227,7 +245,7 @@
           },
           {
             "result": {
-              "duration": 3588951800,
+              "duration": 344504500,
               "status": "passed"
             },
             "line": 17,
@@ -239,7 +257,7 @@
           },
           {
             "result": {
-              "duration": 5308400,
+              "duration": 3447800,
               "status": "passed"
             },
             "line": 18,
@@ -271,7 +289,7 @@
         "steps": [
           {
             "result": {
-              "duration": 295630900,
+              "duration": 286983300,
               "status": "passed"
             },
             "line": 4,
@@ -293,11 +311,20 @@
         "before": [
           {
             "result": {
-              "duration": 1199512600,
+              "duration": 1288634400,
               "status": "passed"
             },
             "match": {
               "location": "smartBearSoftware.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 175300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.testSetUp(Scenario)"
             }
           }
         ],
@@ -308,11 +335,11 @@
         "after": [
           {
             "result": {
-              "duration": 661711000,
+              "duration": 639930600,
               "status": "passed"
             },
             "match": {
-              "location": "Hooks.tearDown()"
+              "location": "Hooks.tearDown(Scenario)"
             }
           }
         ],
@@ -321,7 +348,7 @@
         "steps": [
           {
             "result": {
-              "duration": 65888500,
+              "duration": 60634700,
               "status": "passed"
             },
             "line": 22,
@@ -339,7 +366,7 @@
           },
           {
             "result": {
-              "duration": 100461400,
+              "duration": 103697400,
               "status": "passed"
             },
             "line": 23,
@@ -357,7 +384,7 @@
           },
           {
             "result": {
-              "duration": 3740395700,
+              "duration": 403557500,
               "status": "passed"
             },
             "line": 24,
@@ -369,7 +396,7 @@
           },
           {
             "result": {
-              "duration": 3978600,
+              "duration": 5059000,
               "status": "passed"
             },
             "line": 25,
@@ -387,7 +414,7 @@
           },
           {
             "result": {
-              "duration": 132877300,
+              "duration": 160914300,
               "status": "passed"
             },
             "line": 26,
@@ -422,7 +449,7 @@
         "steps": [
           {
             "result": {
-              "duration": 281579200,
+              "duration": 258789000,
               "status": "passed"
             },
             "line": 4,
@@ -444,11 +471,20 @@
         "before": [
           {
             "result": {
-              "duration": 1239335300,
+              "duration": 1228368700,
               "status": "passed"
             },
             "match": {
               "location": "smartBearSoftware.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 73100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.testSetUp(Scenario)"
             }
           }
         ],
@@ -459,11 +495,11 @@
         "after": [
           {
             "result": {
-              "duration": 681992300,
+              "duration": 667545200,
               "status": "passed"
             },
             "match": {
-              "location": "Hooks.tearDown()"
+              "location": "Hooks.tearDown(Scenario)"
             }
           }
         ],
@@ -472,7 +508,7 @@
         "steps": [
           {
             "result": {
-              "duration": 61932000,
+              "duration": 47425100,
               "status": "passed"
             },
             "line": 31,
@@ -490,7 +526,7 @@
           },
           {
             "result": {
-              "duration": 91012200,
+              "duration": 84955600,
               "status": "passed"
             },
             "line": 32,
@@ -508,7 +544,7 @@
           },
           {
             "result": {
-              "duration": 3609847500,
+              "duration": 388943600,
               "status": "passed"
             },
             "line": 33,
@@ -520,7 +556,7 @@
           },
           {
             "result": {
-              "duration": 4134400,
+              "duration": 5877900,
               "status": "passed"
             },
             "line": 34,
@@ -538,7 +574,7 @@
           },
           {
             "result": {
-              "duration": 199802600,
+              "duration": 175580300,
               "status": "passed"
             },
             "line": 35,
@@ -556,7 +592,7 @@
           },
           {
             "result": {
-              "duration": 316515100,
+              "duration": 523932800,
               "status": "passed"
             },
             "line": 36,
@@ -568,7 +604,7 @@
           },
           {
             "result": {
-              "duration": 169387300,
+              "duration": 189207000,
               "status": "passed"
             },
             "line": 37,
@@ -586,7 +622,7 @@
           },
           {
             "result": {
-              "duration": 399470600,
+              "duration": 423831200,
               "status": "passed"
             },
             "line": 38,
@@ -612,7 +648,7 @@
         "steps": [
           {
             "result": {
-              "duration": 843441300,
+              "duration": 291232400,
               "status": "passed"
             },
             "line": 4,
@@ -634,11 +670,20 @@
         "before": [
           {
             "result": {
-              "duration": 1248858300,
+              "duration": 1255298400,
               "status": "passed"
             },
             "match": {
               "location": "smartBearSoftware.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 94700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.testSetUp(Scenario)"
             }
           }
         ],
@@ -649,11 +694,11 @@
         "after": [
           {
             "result": {
-              "duration": 615188800,
+              "duration": 618104000,
               "status": "passed"
             },
             "match": {
-              "location": "Hooks.tearDown()"
+              "location": "Hooks.tearDown(Scenario)"
             }
           }
         ],
@@ -662,7 +707,7 @@
         "steps": [
           {
             "result": {
-              "duration": 71926300,
+              "duration": 37999600,
               "status": "passed"
             },
             "line": 42,
@@ -680,7 +725,7 @@
           },
           {
             "result": {
-              "duration": 86477700,
+              "duration": 95873600,
               "status": "passed"
             },
             "line": 43,
@@ -698,7 +743,7 @@
           },
           {
             "result": {
-              "duration": 3499713700,
+              "duration": 371985200,
               "status": "passed"
             },
             "line": 44,
@@ -710,7 +755,7 @@
           },
           {
             "result": {
-              "duration": 8397300,
+              "duration": 4531600,
               "status": "passed"
             },
             "line": 45,
@@ -728,7 +773,7 @@
           },
           {
             "result": {
-              "duration": 260046200,
+              "duration": 191165300,
               "status": "passed"
             },
             "line": 46,
@@ -746,7 +791,7 @@
           },
           {
             "result": {
-              "duration": 145886000,
+              "duration": 166236900,
               "status": "passed"
             },
             "line": 47,
@@ -764,7 +809,7 @@
           },
           {
             "result": {
-              "duration": 82353700,
+              "duration": 73657400,
               "status": "passed"
             },
             "line": 48,
@@ -782,7 +827,7 @@
           },
           {
             "result": {
-              "duration": 413673000,
+              "duration": 368516400,
               "status": "passed"
             },
             "line": 49,
@@ -794,7 +839,7 @@
           },
           {
             "result": {
-              "duration": 238557400,
+              "duration": 239687600,
               "status": "passed"
             },
             "line": 50,
@@ -806,7 +851,7 @@
           },
           {
             "result": {
-              "duration": 158673600,
+              "duration": 149980900,
               "status": "passed"
             },
             "line": 51,
@@ -824,7 +869,7 @@
           },
           {
             "result": {
-              "duration": 162087700,
+              "duration": 163046700,
               "status": "passed"
             },
             "line": 52,
@@ -842,7 +887,7 @@
           },
           {
             "result": {
-              "duration": 34142200,
+              "duration": 42864000,
               "status": "passed"
             },
             "line": 53,
@@ -860,7 +905,7 @@
           },
           {
             "result": {
-              "duration": 877700,
+              "duration": 734100,
               "status": "passed"
             },
             "line": 54,
@@ -886,7 +931,7 @@
         "steps": [
           {
             "result": {
-              "duration": 270026300,
+              "duration": 297197300,
               "status": "passed"
             },
             "line": 4,
@@ -908,11 +953,20 @@
         "before": [
           {
             "result": {
-              "duration": 1272699600,
+              "duration": 1268987900,
               "status": "passed"
             },
             "match": {
               "location": "smartBearSoftware.setUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 87400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.testSetUp(Scenario)"
             }
           }
         ],
@@ -923,11 +977,11 @@
         "after": [
           {
             "result": {
-              "duration": 685551600,
+              "duration": 750462700,
               "status": "passed"
             },
             "match": {
-              "location": "Hooks.tearDown()"
+              "location": "Hooks.tearDown(Scenario)"
             }
           }
         ],
@@ -936,7 +990,7 @@
         "steps": [
           {
             "result": {
-              "duration": 89033600,
+              "duration": 86218200,
               "status": "passed"
             },
             "line": 58,
@@ -954,7 +1008,7 @@
           },
           {
             "result": {
-              "duration": 81983600,
+              "duration": 105749600,
               "status": "passed"
             },
             "line": 59,
@@ -972,7 +1026,7 @@
           },
           {
             "result": {
-              "duration": 3402342900,
+              "duration": 387310400,
               "status": "passed"
             },
             "line": 60,
@@ -984,7 +1038,7 @@
           },
           {
             "result": {
-              "duration": 4214100,
+              "duration": 5022700,
               "status": "passed"
             },
             "line": 61,
@@ -1002,7 +1056,7 @@
           },
           {
             "result": {
-              "duration": 133742100,
+              "duration": 138788600,
               "status": "passed"
             },
             "line": 62,
@@ -1020,7 +1074,7 @@
           },
           {
             "result": {
-              "duration": 512186600,
+              "duration": 273559500,
               "status": "passed"
             },
             "line": 63,
@@ -1038,7 +1092,7 @@
           },
           {
             "result": {
-              "duration": 30014633400,
+              "duration": 30015683400,
               "status": "passed"
             },
             "line": 64,
@@ -1056,7 +1110,7 @@
           },
           {
             "result": {
-              "duration": 33531800,
+              "duration": 65960600,
               "status": "passed"
             },
             "line": 65,

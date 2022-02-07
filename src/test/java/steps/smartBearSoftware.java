@@ -14,7 +14,6 @@ import org.openqa.selenium.support.ui.Select;
 import pages.PageObjectModel;
 import texts.ExpectedText;
 import utilities.Driver;
-import utilities.Waiter;
 
 import java.util.List;
 
@@ -69,13 +68,11 @@ public class smartBearSoftware {
     @And("user clicks on Login button")
     public void userClicksOnLoginButton() {
         pageObjectModel.login.click();
-        Waiter.pause(3);
     }
 
     @Then("user should see {string} Message")
     public void userShouldSeeMessage(String message) {
         Assert.assertEquals(message, pageObjectModel.message.getText());
-        Waiter.pause(3);
     }
 
     @Then("user should be routed to {string}")

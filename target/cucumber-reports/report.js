@@ -12,6 +12,9 @@ formatter.background({
 formatter.before({
   "status": "passed"
 });
+formatter.before({
+  "status": "passed"
+});
 formatter.step({
   "name": "user is on \"http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx\"",
   "keyword": "Given "
@@ -83,6 +86,9 @@ formatter.background({
 formatter.before({
   "status": "passed"
 });
+formatter.before({
+  "status": "passed"
+});
 formatter.step({
   "name": "user is on \"http://secure.smartbearsoftware.com/samples/testcomplete12/WebOrders/login.aspx\"",
   "keyword": "Given "
@@ -150,6 +156,9 @@ formatter.background({
   "name": "",
   "description": "",
   "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.before({
   "status": "passed"
@@ -240,6 +249,9 @@ formatter.background({
   "name": "",
   "description": "",
   "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.before({
   "status": "passed"
@@ -351,6 +363,9 @@ formatter.background({
   "name": "",
   "description": "",
   "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.before({
   "status": "passed"
@@ -512,6 +527,9 @@ formatter.background({
   "name": "",
   "description": "",
   "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
 });
 formatter.before({
   "status": "passed"
